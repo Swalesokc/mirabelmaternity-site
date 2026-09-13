@@ -3,9 +3,9 @@
 :root {
   --color-cream: #faf6f0;
   --color-cream-dark: #f1e9df;
-  --color-lavender: #e6def0;
-  --color-plum: #8a5d99;
-  --color-plum-dark: #6b4478;
+  --color-lavender: #f0dbe6;
+  --color-plum: #ac6690;
+  --color-plum-dark: #8a4c71;
   --color-sage: #8a8fa3;
   --color-sage-dark: #666c85;
   --color-charcoal: #33302c;
@@ -284,12 +284,16 @@ p { margin: 0 0 1em; }
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
   aspect-ratio: 4 / 5;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--color-sage-dark);
   font-family: var(--font-heading);
   text-align: center;
+}
+
+.hero-art.placeholder {
   padding: 24px;
   border: 2px dashed var(--color-lavender);
 }
