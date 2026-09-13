@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Mirabel Maternity</title>
+  <meta name="description" content="Schedule a free consultation with Mirabel Maternity, serving Edmond and the greater Oklahoma City metro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="brand">Mirabel <span>Maternity</span></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/testimonials.html">Testimonials</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/contact.html" class="btn btn-primary">Free Consultation</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" style="padding-bottom: 40px;">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's talk about your birth</h1>
+      <p class="lead">Fill out the form below or reach out directly — I typically respond within [1 business day].</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="placeholder-note">
+        This form uses <a href="https://web3forms.com" target="_blank" rel="noopener">Web3Forms</a> (free, no monthly
+        cost). Before going live: sign up at web3forms.com with your real email, get an Access Key, and paste it
+        into the hidden input below in place of <code>YOUR_ACCESS_KEY_HERE</code>. See the README for step-by-step
+        instructions.
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Send a message</h3>
+          <form action="https://api.web3forms.com/submit" method="POST" class="form-grid">
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+            <input type="hidden" name="subject" value="New inquiry from Mirabel Maternity website" />
+            <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div>
+              <label for="due_date">Estimated due date (if applicable)</label>
+              <input type="date" id="due_date" name="due_date" />
+            </div>
+            <div>
+              <label for="interest">I'm interested in</label>
+              <select id="interest" name="interest">
+                <option>Birth doula support</option>
+                <option>Postpartum doula support</option>
+                <option>Birth + postpartum bundle</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Direct contact</h3>
+          <p><strong>Email:</strong> <a href="mailto:[email@mirabelmaternity.com]">[email@mirabelmaternity.com]</a></p>
+          <p><strong>Phone / Text:</strong> <a href="tel:[555-555-5555]">[(555) 555-5555]</a></p>
+          <p><strong>Service area:</strong> Edmond &amp; the greater Oklahoma City metro, OK [confirm exact radius/cities]</p>
+          <p><strong>Response time:</strong> [e.g. within 24 hours]</p>
+          <hr style="border: none; border-top: 1px solid var(--color-cream-dark); margin: 24px 0;" />
+          <h3>Prefer to talk first?</h3>
+          <p>[Optional — add a booking link here, e.g. a free Calendly link, if you want people to schedule a call time directly instead of waiting for a reply.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Mirabel Maternity</h4>
+          <p>Birth &amp; postpartum doula support serving Edmond and the greater Oklahoma City metro.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:[email@mirabelmaternity.com]">[email@mirabelmaternity.com]</a></li>
+            <li><a href="tel:[555-555-5555]">[(555) 555-5555]</a></li>
+            <li>Edmond &amp; OKC Metro, OK</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span data-year></span> Mirabel Maternity. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
