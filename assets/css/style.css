@@ -1,8 +1,8 @@
 /* ===== Mirabel Maternity — base styles ===== */
 
 :root {
-  --color-cream: #faf6f0;
-  --color-cream-dark: #f1e9df;
+  --color-cream: #d8cbc6;
+  --color-cream-dark: #cabcb6;
   --color-lavender: #f5dbe4;
   --color-plum: #c06693;
   --color-plum-dark: #9a4972;
@@ -139,7 +139,7 @@ p { margin: 0 0 1em; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(250, 246, 240, 0.92);
+  background: rgba(216, 203, 198, 0.92);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--color-cream-dark);
 }
@@ -250,7 +250,7 @@ p { margin: 0 0 1em; }
 
 .hero {
   padding: 72px 0 90px;
-  background: linear-gradient(160deg, var(--color-lavender) 0%, var(--color-cream) 55%);
+  background: var(--color-cream);
 }
 
 .hero-inner {
